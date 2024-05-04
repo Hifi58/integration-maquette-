@@ -49,8 +49,26 @@ header div footer {
 
 main {
   display: flex;
-  min-height: 200vh;
+  flex-direction: column;
+  min-height: 130vh;
   background-color: rgb(9, 9, 9);
+}
+
+.container {
+  display: flex;
+}
+
+.container2 {
+  justify-content: space-between;
+}
+
+.container2 div {
+  padding: 2rem;
+}
+
+.container img {
+  width: 420px;
+  aspect-ratio: 1/1.2;
 }
 
 .block-images {
@@ -71,5 +89,5 @@ main {
 
 .block-images img {
   width: 320px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1.2 / 1;
 }
