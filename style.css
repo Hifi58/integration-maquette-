@@ -54,6 +54,10 @@ main {
   background-color: rgb(9, 9, 9);
 }
 
+section {
+  background-color: rgb(9, 9, 9);
+}
+
 .container {
   display: flex;
 }
@@ -90,4 +94,26 @@ main {
 .block-images img {
   width: 320px;
   aspect-ratio: 1.2 / 1;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  width: 25%;
+  aspect-ratio: 1/1;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.staff {
+  display: flex;
+}
+
+.staff img {
+  width: 30%;
+  aspect-ratio: 1/1;
 }
