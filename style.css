@@ -199,7 +199,7 @@ section h3 {
 }
 
 .img-radius {
-  width: 30%;
+  width: 350px;
   border-radius: 100%;
 }
 
@@ -284,4 +284,33 @@ section h3 {
   position: relative;
   z-index: 0;
   right: 175px;
+}
+
+.square2 {
+  width: 350px;
+  height: 350px;
+  background-color: lightgrey;
+  transform: rotate(45deg);
+  position: relative;
+  z-index: 0;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 2rem;
+}
+
+.customer-text {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+.customer blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 1.5rem;
 }
